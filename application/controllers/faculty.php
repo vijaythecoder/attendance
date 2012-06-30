@@ -12,4 +12,8 @@ function create_faculty()
 		if($this->Faculty_model->add_faculty())
          echo "success";
 	}
+	function thickbox()
+	{
+	$this->load->view('thickbox');
+	}
 }
